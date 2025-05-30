@@ -1,14 +1,14 @@
 #include <gtest/gtest.h>
 #include "mul.h"
 
-TEST(DivTest, HandlesPositiveInput)
+TEST(MulTest, HandlesPositiveInput)
 {
 int result = mul(3, 6);
 
 EXPECT_EQ(result, 18);
 }
 
-TEST(DivTest, HandlesZeroInput)
+TEST(MulTest, HandlesZeroInput)
 {
 int result = divide(9, 0);
 
