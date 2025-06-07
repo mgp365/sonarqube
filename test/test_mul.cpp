@@ -10,7 +10,7 @@ EXPECT_EQ(result, 18);
 
 TEST(MulTest, HandlesZeroInput)
 {
-int result = divide(9, 0);
+int result = mul(9, 0);
 
 EXPECT_EQ(result, 0);
 }
